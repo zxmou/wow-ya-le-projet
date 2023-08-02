@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+
+body {
+    font-family: 'Lexend Deca', sans-serif; 
+}
+
+#box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.SUVS{
+    width: 300px;
+    height: 340px;
+    background-color: hsl(179, 100%, 13%);
+    padding: 20px; 
+    border-radius: 10px; 
+    margin: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.LUXURY{
+    width: 300px;
+    height: 340px;
+    background-color: hsl(184, 100%, 22%);
+    padding: 20px; 
+    border-radius: 10px; 
+    margin: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.SEDANS{
+    width: 300px;
+    height: 340px;
+    background-color: hsl(31, 77%, 52%);
+    padding: 20px; 
+    border-radius: 10px; 
+    margin: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+p, h2 {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Big Shoulders Display', sans-serif; 
+}
+
+p {
+    margin-top: 10px;
+}
+
+input {
+    display: block;
+    background-color: hsl(0, 0%, 95%);
+    border: none; 
+    border-radius: 20px;
+    color: #000000;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px 20px; 
+    width: 150px;
+    cursor: pointer;
+    margin: 40px auto 0; 
+}
+
+img {
+    max-width: 100%; 
+    height: auto;
+}
